@@ -17,15 +17,29 @@ div#top{
 
 }
 
+.fade .overlay{
+    position: absolute;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/21a8ba09-4a61-44f8-8e2e-70e949c00c6f/16a807a1-b493-4f4a-92f4-7011db3fb684/KW-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_9a8fbbe8-b25b-4260-92f0-225230c1ebdd_small.jpg");
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: 1;
+}
+
 .fade{
 
-    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/21a8ba09-4a61-44f8-8e2e-70e949c00c6f/16a807a1-b493-4f4a-92f4-7011db3fb684/KW-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_9a8fbbe8-b25b-4260-92f0-225230c1ebdd_small.jpg");
+    position: relative;
+    z-index: 2;
     height: 98vh;
     
 }
 
 .logo {
     height: 125px;
+    z-index: 2;
 }
 
 /* <img alt="" aria-hidden="true" data-uia="nmhp-card-hero+background+image" src="https://assets.nflxext.com/ffe/siteui/vlv3/21a8ba09-4a61-44f8-8e2e-70e949c00c6f/16a807a1-b493-4f4a-92f4-7011db3fb684/KW-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_9a8fbbe8-b25b-4260-92f0-225230c1ebdd_small.jpg" srcset="https://assets.nflxext.com/ffe/siteui/vlv3/21a8ba09-4a61-44f8-8e2e-70e949c00c6f/16a807a1-b493-4f4a-92f4-7011db3fb684/KW-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_9a8fbbe8-b25b-4260-92f0-225230c1ebdd_small.jpg 1000w, https://assets.nflxext.com/ffe/siteui/vlv3/21a8ba09-4a61-44f8-8e2e-70e949c00c6f/16a807a1-b493-4f4a-92f4-7011db3fb684/KW-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_9a8fbbe8-b25b-4260-92f0-225230c1ebdd_medium.jpg 1500w, https://assets.nflxext.com/ffe/siteui/vlv3/21a8ba09-4a61-44f8-8e2e-70e949c00c6f/16a807a1-b493-4f4a-92f4-7011db3fb684/KW-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_9a8fbbe8-b25b-4260-92f0-225230c1ebdd_large.jpg 1800w" class="default-ltr-cache-1jxs5rh e13sg9vu0"> */
@@ -46,6 +60,7 @@ div#top{
     height: 35px;
     margin: 30px;
     margin-right: 100px;
+    z-index: 2;
   
 
 }
@@ -58,6 +73,8 @@ div#top{
     flex-direction: column;
     align-items: center;
     height: 600px;
+    z-index: 2;
+    position: relative;
     
 }
 
