@@ -1,0 +1,89 @@
+body{
+
+    background-color: black;
+
+}
+
+h1{
+
+    font-size: 40px;
+}
+
+div#top{
+
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.fade{
+
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/21a8ba09-4a61-44f8-8e2e-70e949c00c6f/16a807a1-b493-4f4a-92f4-7011db3fb684/KW-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_9a8fbbe8-b25b-4260-92f0-225230c1ebdd_small.jpg");
+    height: 98vh;
+    
+}
+
+.logo {
+    height: 125px;
+}
+
+/* <img alt="" aria-hidden="true" data-uia="nmhp-card-hero+background+image" src="https://assets.nflxext.com/ffe/siteui/vlv3/21a8ba09-4a61-44f8-8e2e-70e949c00c6f/16a807a1-b493-4f4a-92f4-7011db3fb684/KW-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_9a8fbbe8-b25b-4260-92f0-225230c1ebdd_small.jpg" srcset="https://assets.nflxext.com/ffe/siteui/vlv3/21a8ba09-4a61-44f8-8e2e-70e949c00c6f/16a807a1-b493-4f4a-92f4-7011db3fb684/KW-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_9a8fbbe8-b25b-4260-92f0-225230c1ebdd_small.jpg 1000w, https://assets.nflxext.com/ffe/siteui/vlv3/21a8ba09-4a61-44f8-8e2e-70e949c00c6f/16a807a1-b493-4f4a-92f4-7011db3fb684/KW-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_9a8fbbe8-b25b-4260-92f0-225230c1ebdd_medium.jpg 1500w, https://assets.nflxext.com/ffe/siteui/vlv3/21a8ba09-4a61-44f8-8e2e-70e949c00c6f/16a807a1-b493-4f4a-92f4-7011db3fb684/KW-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_9a8fbbe8-b25b-4260-92f0-225230c1ebdd_large.jpg 1800w" class="default-ltr-cache-1jxs5rh e13sg9vu0"> */
+/* .container{
+
+    background-color: black; 
+    
+} */
+
+.signin{
+
+
+    background-color: rgb(238, 36, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    height: 35px;
+    margin: 30px;
+    margin-right: 100px;
+  
+
+}
+
+.middle{
+
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    
+}
+
+.sizetv{
+
+    height: 400px;
+    padding-right: 170px;
+
+}
+
+.bottom{
+    
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+
+.text{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 150px;
+    font-size: 32px;
+    
+}
